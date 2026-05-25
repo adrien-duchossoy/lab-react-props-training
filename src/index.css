@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#id-card, #greeting-card, #random-card, #box-color {
+  display: flex;
+  border: 0.1em solid #000;
+  padding: 0.2em;
+  margin: 1em;
+}
+
+.entry-name {
+  font-weight: bold;
+  font-size: medium;
+}
+
+#fields {
+  padding-left: 0.5em;
+}
+
+#fields p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+#profile-pic img {
+  display: block;
+}
+
+#box-color {
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+#box-color p {
+  text-align: center;
+}
