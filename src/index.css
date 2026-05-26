@@ -46,3 +46,53 @@ code {
 #box-color p {
   text-align: center;
 }
+
+.card-exercise-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+  padding: 2em;
+}
+
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28em;
+  height: 13em;
+  border-radius: 0.8em;
+  padding: 1.2em;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.credit-card span {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.card-number {
+  font-size: 2.3rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.card-details-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  column-gap: 2rem;
+  row-gap: 0.3rem;
+}
+
+.card-owner {
+  width: 100%;
+}
+
+.card-logo-img {
+  width: 15%;
+  align-self: flex-end;
+  height: 1.5em;
+  object-fit: contain;
+}
