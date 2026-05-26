@@ -73,7 +73,7 @@ code {
 }
 
 .card-number {
-  font-size: 2.3rem;
+  font-size: 2rem;
   letter-spacing: 0.1em;
   text-align: center;
 }
@@ -95,4 +95,53 @@ code {
   align-self: flex-end;
   height: 1.5em;
   object-fit: contain;
+}
+
+#rating-container {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-bottom: 2em;
+}
+
+.driver-card-indiv{
+  margin: 0.5em;
+  display: flex;
+  background-color: rgb(62, 131, 200);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  padding: 1em;
+}
+
+.driver-info{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.driver-card-indiv img {
+  clip-path: circle(50%);
+  width: 6em;
+  height: 6em;
+  object-fit: cover;
+}
+
+.driver-card-indiv h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.driver-card-indiv p {
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+}
+
+.rating p {
+  margin: 0;
+  font-size: 1.5em;
 }
